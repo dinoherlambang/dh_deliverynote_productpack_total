@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dh_deliverynote_productpack_total_dh_deliverynote_productpack_total,dh_deliverynote_productpack_total.dh_deliverynote_productpack_total,model_dh_deliverynote_productpack_total_dh_deliverynote_productpack_total,base.group_user,1,1,1,1

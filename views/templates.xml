@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+      <template id="report_deliveryslip_document" inherit_id="stock.report_deliveryslip_document">
+          <xpath expr="//table[@class='table-condensed']/tfoot" position="before">
+              <tr>
+                  <td colspan="4" style="text-align: right;">
+                      <strong>Total Units:</strong>
+                  </td>
+                  <td>
+                      <span t-field="o.total_units"/>
+                  </td>
+              </tr>
+          </xpath>
+      </template>
+
+    </data>
+</odoo>
